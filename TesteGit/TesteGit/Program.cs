@@ -12,10 +12,28 @@ namespace TesteGit
         static void Main(string[] args)
         {
             ClasseTeste obj = new ClasseTeste();
+            int num = 0;
+            bool b = false;
 
             Console.WriteLine("Teste - Usando git com Visual Studio 2015");
+            Console.WriteLine();
+            Console.WriteLine("Digite um número");
+            if (!int.TryParse(Console.ReadLine(), out num))
+            {
+                do
+                {
+                    Console.Clear();
+                    Console.WriteLine("Digite um número Válido");
+                    b = false;
+                    if (int.TryParse(Console.ReadLine(), out num))
+                    {
+                        b = true;
+                    }
+                } while (b ==false);
+            }
+            Console.Clear();
 
-            for (int i = 0; i < 32; i++)
+            for (int i = 0; i < num; i++)
                 Console.WriteLine(obj.receberMSG());
 
             Console.ReadKey();
