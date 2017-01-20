@@ -11,7 +11,6 @@ namespace TesteGit
         static void Main(string[] args)
         {
             Console.WriteLine("Teste - Usando git com Visual Studio 2015");
-            Console.WriteLine("Teste");
 
             Console.ReadKey();
         }
