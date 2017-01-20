@@ -7,3 +7,6 @@ C:\Projetos\testevisualstudio-git\TesteGit\TesteGit\obj\Debug\TesteGit.exe
 C:\Projetos\testevisualstudio-git\TesteGit\TesteGit\obj\Debug\TesteGit.pdb
 C:\Users\Usuário\Documents\testes\testevisualstudio-git\TesteGit\TesteGit\obj\Debug\TesteGit.exe
 C:\Users\Usuário\Documents\testes\testevisualstudio-git\TesteGit\TesteGit\obj\Debug\TesteGit.pdb
+C:\Users\Usuário\Documents\testes\testevisualstudio-git\TesteGit\TesteGit\bin\Debug\TesteGit.exe
+C:\Users\Usuário\Documents\testes\testevisualstudio-git\TesteGit\TesteGit\bin\Debug\TesteGit.pdb
+C:\Users\Usuário\Documents\testes\testevisualstudio-git\TesteGit\TesteGit\obj\Debug\TesteGit.csprojResolveAssemblyReference.cache
