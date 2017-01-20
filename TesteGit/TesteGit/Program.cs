@@ -13,7 +13,10 @@ namespace TesteGit
             ClasseTeste obj = new ClasseTeste();
 
             Console.WriteLine("Teste - Usando git com Visual Studio 2015");
-            Console.WriteLine(obj.receberMSG());
+
+            for (int i = 0; i < 32; i++)
+                Console.WriteLine(obj.receberMSG());
+
             Console.ReadKey();
         }
     }
