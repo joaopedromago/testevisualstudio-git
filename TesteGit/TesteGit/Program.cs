@@ -18,6 +18,7 @@ namespace TesteGit
             Console.WriteLine("Teste - Usando git com Visual Studio 2015");
             Console.WriteLine();
             Console.WriteLine("Digite um número");
+            //Fazer o teste do valor digitado, forçando a digitação de um número inteiro válido
             if (!int.TryParse(Console.ReadLine(), out num))
             {
                 do
@@ -31,6 +32,7 @@ namespace TesteGit
                     }
                 } while (b ==false);
             }
+
             Console.Clear();
 
             for (int i = 0; i < num; i++)
