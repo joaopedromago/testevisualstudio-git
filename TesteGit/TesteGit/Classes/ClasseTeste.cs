@@ -8,9 +8,11 @@ namespace TesteGit.Classes
 {
     class ClasseTeste
     {
+        private static int idMensagem = 0;
+
         public string receberMSG()
         {
-            string message = "Olá";
+            string message = "Olá " + ++idMensagem;
             return message;
         }
     }
