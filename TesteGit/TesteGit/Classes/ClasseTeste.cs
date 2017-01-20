@@ -8,6 +8,10 @@ namespace TesteGit.Classes
 {
     class ClasseTeste
     {
-
+        public string receberMSG()
+        {
+            string message = "Olá";
+            return message;
+        }
     }
 }
